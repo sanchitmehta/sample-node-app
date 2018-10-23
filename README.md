@@ -2,7 +2,7 @@
 
 This simple [Express](https://expressjs.com/) app is an example of how to package a Node.js application with Habitat. It's intended to accompany the walkthroughs on the Habitat website, but it can also be run locally on its own.
 
-### Follow the Demos!
+### Follow the Demos!!
 
 For the full experience, we recommend [following the demos](https://www.habitat.sh/learn/) on the Habitat website. They walk you through getting set up with Habitat, [Builder](https://bldr.habitat.sh/), automated builds and publishing to Docker Hub.
 
