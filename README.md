@@ -1,4 +1,4 @@
-# Habitat Sample Node App
+# Habitat Sample Node App.
 
 This simple [Express](https://expressjs.com/) app is an example of how to package a Node.js application with Habitat. It's intended to accompany the walkthroughs on the Habitat website, but it can also be run locally on its own.
 
