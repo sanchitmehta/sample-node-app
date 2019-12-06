@@ -2,11 +2,6 @@
 # Build a general Node.js project with npm.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
-
-parameters:
-  appName: "test1" 
-  userName: "test1"
-  password: "debug"
   
 trigger:
 - master
@@ -24,4 +19,4 @@ steps:
   displayName: 'Build and Deploy'
   inputs:
     scriptPath: ./buildApp.sh
-    args: ${{ parameters.appName }} ${{ parameters.userName }} ${{ parameters.password }} $(System.DefaultWorkingDirectory)
+    args: 'test1' 'test1' 'debug' $(System.DefaultWorkingDirectory)
