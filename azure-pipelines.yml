@@ -16,6 +16,16 @@ steps:
   displayName: 'Install Node.js'
 
 - task: ShellScript@2
-  displayName: 'Build and Deploy'
+  displayName: 'Build'
   inputs:
     scriptPath: ./build.sh
+    
+- task: ShellScript@2
+  displayName: 'Generate artifacts'
+  inputs:
+    scriptPath: ./zip.sh
+    
+- task: ShellScript@2
+  displayName: 'Deploy App'
+  inputs:
+    scriptPath: ./deploy.sh
